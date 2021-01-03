@@ -21,6 +21,7 @@ namespace FeedbackSystem
         {
             var feedbackMsg = context.GetInput<MessageFeedbackForm>();
             long feedbackId = 0;
+            bool hasEmailSent = false;
             try
             {
 
@@ -29,14 +30,19 @@ namespace FeedbackSystem
                    // log.LogInformation(feedbackMsg.ToString());
 
                     //Store the data in sqlserver and return ID 
+                    
                     feedbackId = await context.CallActivityAsync<Int64>("A_SaveFeedback", feedbackMsg);
 
                     if (feedbackId > 0)
                     {
                         //send email to the feedbacksender 
+                       hasEmailSent= await context.CallActivityAsync<bool>("A_SendEmail", feedbackId);
                     }
 
-
+                    if (hasEmailSent)
+                    {
+                        //Create a text file from Sql data and send it to a support team for assistance .
+                    }
                     //Call the EmailSendToUser Funcion (Activity functions) ;
                 }
 
