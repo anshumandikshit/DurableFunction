@@ -42,6 +42,7 @@ namespace FeedbackSystem
                     if (hasEmailSent)
                     {
                         //Create a text file from Sql data and send it to a support team for assistance .
+                        await context.CallActivityAsync("A_AssignSupportPerson", feedbackId);
                     }
                     //Call the EmailSendToUser Funcion (Activity functions) ;
                 }
