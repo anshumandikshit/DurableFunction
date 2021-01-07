@@ -128,5 +128,6 @@
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
     <Build Include="Store Procedures\SampleProcedure.sql" />
+    <Build Include="Store Procedures\SampleProcedure1.sql" />
   </ItemGroup>
 </Project>
