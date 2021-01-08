@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T05:26:19.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.5" etag="yRAXOCwI5tlRIDHIUrtX" type="github"><diagram id="Rp6ueRdj8iFP_vZtpU46">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-08T11:59:17.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="m9w024MPBA_egX75FXcH" version="14.1.5" type="github">
+  <diagram id="Rp6ueRdj8iFP_vZtpU46" name="Page-1">
+    <mxGraphModel dx="1038" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-1" value="Local Machine Codebase" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_git-128.png" vertex="1" parent="1">
+          <mxGeometry x="76" y="130" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nJOXUhZg-ZHUmmu5_59A-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="250" as="sourcePoint" />
+            <mxPoint x="105" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-4" value="Git Repo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Pipelines.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="138" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.024;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nJOXUhZg-ZHUmmu5_59A-2" target="nJOXUhZg-ZHUmmu5_59A-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="180" as="sourcePoint" />
+            <mxPoint x="210" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="200" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-8" value="Take the latest file fromGit&amp;nbsp; Branch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-10" value="build .DACPAC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-12" value="Publish Artifact" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-13" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Pipelines.svg;" vertex="1" parent="1">
+          <mxGeometry x="430" y="138" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-14" value="Release Pipeline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="90" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-15" value="BuildPipeline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-16" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nJOXUhZg-ZHUmmu5_59A-7" target="nJOXUhZg-ZHUmmu5_59A-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="390" as="sourcePoint" />
+            <mxPoint x="445" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="455" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="138" width="300" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-18" value="DEV-SQL" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" vertex="1" parent="1">
+          <mxGeometry x="560" y="169" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-19" value="UAT-SQL" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" vertex="1" parent="1">
+          <mxGeometry x="640" y="169" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-20" value="Prod-SQL" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" vertex="1" parent="1">
+          <mxGeometry x="730" y="169" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-22" value="" style="endArrow=classic;html=1;entryX=-0.013;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.024;exitY=0.376;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nJOXUhZg-ZHUmmu5_59A-13" target="nJOXUhZg-ZHUmmu5_59A-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="238" as="sourcePoint" />
+            <mxPoint x="520" y="188" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-23" value="" style="endArrow=classic;html=1;exitX=0.69;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nJOXUhZg-ZHUmmu5_59A-18" target="nJOXUhZg-ZHUmmu5_59A-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="607.5" y="200" as="sourcePoint" />
+            <mxPoint x="657.5" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJOXUhZg-ZHUmmu5_59A-24" value="" style="endArrow=classic;html=1;exitX=0.69;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="682.7750000000001" y="193.5" as="sourcePoint" />
+            <mxPoint x="730" y="193.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
