@@ -4,6 +4,7 @@
     [LastName]        NVARCHAR (MAX) NULL,
     [EmailAddress]    NVARCHAR (MAX) NULL,
     [FeedbackMessage] NVARCHAR (MAX) NULL,
+    [ATTRIBUTE1] NVARCHAR(100) NULL, 
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
